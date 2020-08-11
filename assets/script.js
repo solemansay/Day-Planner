@@ -13,3 +13,9 @@ $(".row").each(function () {
         $(this).find(".ta").addClass("future")
     }
 })
+
+$("button").on("click", function(){
+    var txtValue = $(this)[0].previousElementSibling.children[0].value
+    var id = $(this)[0].previousElementSibling.id
+    localStorage.setItem(id, txtValue)
+})
