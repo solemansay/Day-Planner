@@ -2,7 +2,7 @@
 
 <img src = "assets/BrowserView.jpg" alt = "browser view">
 
-The reason for making this day planner was to create a website that would save and store your information for the day in the provided text areas. while doing this exercise I was able to flex the new knowledge that I have on the DOM as well as creating loops. 
+The reason for making this day planner was to create a website that would save and store your information for the day in the provided text areas. while doing this exercise I was able to flex the new knowledge that I have on the DOM as well as creating loops and functions. 
 
 # How it works 
 
