@@ -1,6 +1,6 @@
  var ct = moment().format("H")
-
-$("#currentDay").text(moment().format("dddd MMMM Do YYYY h:mm a"));
+ 
+ $("#currentDay").text(moment().format("dddd MMMM Do YYYY h:mm a"));
 
 $(".row").each(function () {
     if ($(this)[0].children[1].id == ct) {
@@ -18,4 +18,12 @@ $("button").on("click", function(){
     var txtValue = $(this)[0].previousElementSibling.children[0].value
     var id = $(this)[0].previousElementSibling.id
     localStorage.setItem(id, txtValue)
+})
+
+$( document ).ready(function() {
+    $(".row").each(function () {
+        var keyName = $(this)[0].children[1].id
+        var item = localStorage.getItem(keyName)
+        $(this)[0].children[1].children[0].value = item;
+    })
 })
