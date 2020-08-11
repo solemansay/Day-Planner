@@ -25,6 +25,7 @@ $(".row").each(function () {
 //Saving the value of the text area in local storage 
 $("button").on("click", function(){
     var txtValue = $(this)[0].previousElementSibling.children[0].value
+    console.log(this)
     var id = $(this)[0].previousElementSibling.id
     localStorage.setItem(id, txtValue)
 })
