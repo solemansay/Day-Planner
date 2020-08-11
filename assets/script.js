@@ -1,5 +1,5 @@
- var ct = moment().format("H")
- 
+var ct = moment().format("HH")
+
  //date and time 
  $("#currentDay").text(moment().format("dddd MMMM Do YYYY h:mm a"));
 

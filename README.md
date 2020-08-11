@@ -8,4 +8,11 @@ The first thing that I accomplished was establishing the html, assigning it rows
 
 <img src = "assets/htmlRows.jpg" alt= "html Rows and Columns example">
 
-I gave each text area an id corilating to the time of the row it was on in military time. 
+I gave each text area an id corilating to the time of the row it was on in military time. I also connected the nessicarry divs to the style sheet by assigning them specific classes that appeared on the css file.
+
+next in the javascript I created a variable for the current time (ct) and made it equal to moment().format("HH") which would allow the value to be changed as the hour did throughout the day. 
+
+After this I created an on load function that would simultaniously set the color for past, preasent, and future while getting the 
+values of past entries from local storage and setting them as the text area value.
+
+<img src = "assets/settingVar.jpg" alt= "javascript setting var and creating for each loop">
