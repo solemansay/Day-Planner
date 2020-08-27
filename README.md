@@ -41,5 +41,12 @@ First I created an on-click listener for all of the button tags, then I created 
 
 Finally, I set the items to local storage where they will be kept until cleared through developer tools or deleted and saved off of the text box. 
 
-
+```
 Thank you for viewing my day planner project! I hoped you enjoyed my solution and continue to follow my career as a jr full-stack web developer. 
+-Soleman Sayeed
+```
+
+## Questions
+  
+If you have any questions anout the repo, open an issue or contact me directly at [solemansay](https://github.com/solemansay/). 
+Or send me an email at [solemansay@gmail.com](solemansay@gmail.com)
