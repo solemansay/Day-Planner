@@ -32,7 +32,7 @@ I accomplished this as you can see above by enlisting a for each loop that itera
 
 Lastly, I created an event listener for the save buttons that would save the data entered into the text box to local storage.
 
-<img src = "assets/localStorage.jpg" alt="local storage for each loop">
+<img src = "assets/LocalStorage.jpg" alt="local storage for each loop">
 
 This was accomplished using yet another for each loop. 
 
