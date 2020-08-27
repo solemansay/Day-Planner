@@ -1,10 +1,16 @@
 # Day-Planner
 
+This is the deployed [website](https://solemansay.github.io/Day-Planner/).
+
+## Browser View
+
 <img src = "assets/BrowserView.jpg" alt = "browser view">
+
+## description
 
 The reason for making this day planner was to create a website that would save and store your information for the day in the provided text areas. while doing this exercise I was able to flex the new knowledge that I have on the DOM as well as creating loops and functions. 
 
-# How it works 
+## How It Works
 
 The first thing that I accomplished was establishing the HTML, assigning it rows and columns for the time, text area, and save button like so:
 
